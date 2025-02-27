@@ -1,0 +1,56 @@
+.btn{
+    background-color: rgb(237, 248, 248);
+    padding-bottom: 25px;
+}
+.tag {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: rgb(106, 163, 157);
+}
+
+@media screen and (max-width: 600px) {
+    .select{
+        position: absolute;
+        top: 140px;
+        /* width: 100%; */
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    ul{
+        /* width: 100%; */
+        margin-left:20px ;
+        margin-right: 20px;
+    }
+
+    .tag {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        color: rgb(106, 163, 157);
+        margin-left: 10px;
+    }
+
+    .btn{
+        background-color: rgb(237, 248, 248);
+        padding-bottom: 25px;
+    }
+
+    li{
+        /* position: relative; */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border-bottom: 1px solid;
+        width: 100%;
+        padding-left: 0;
+
+    }
+    .logo {
+        width: 50px; 
+        margin-top: -3.8rem;
+       
+    }
+}
+
